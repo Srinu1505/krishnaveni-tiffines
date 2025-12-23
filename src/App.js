@@ -1,25 +1,65 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
+
+import Header from "./components/Header";
+import Menu from "./components/Menu";
+import Cart from "./components/Cart";
+import Orders from "./components/Orders";
+import "./styles.css";
 
 function App() {
+  const [cartItems, setCartItems] = useState([]);
+  const [search, setSearch] = useState("");
+  const [orders, setOrders] = useState([]); 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header
+        cartItems={cartItems}
+        search={search}
+        setSearch={setSearch}
+      />
+
+      <Routes>
+        {/* HOME PAGE */}
+        <Route
+          path="/"
+          element={
+            <>
+              <Menu
+                cartItems={cartItems}
+                setCartItems={setCartItems}
+                search={search}
+              />
+              <Cart
+                cartItems={cartItems}
+                setCartItems={setCartItems}
+                orders={orders}
+                setOrders={setOrders}
+              />
+            </>
+          }
+        />
+
+        {/* ORDERS PAGE */}
+        <Route
+          path="/orders"
+          element={
+            <Orders
+              orders={orders}
+              setOrders={setOrders}   
+            />
+          }
+        />
+
+      </Routes>
+    </>
   );
 }
 
 export default App;
+
+
+
+
+
+
