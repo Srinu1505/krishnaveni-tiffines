@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/krishnaveni-tiffines/static/css/main.9e0543e2.css",
-    "main.js": "/krishnaveni-tiffines/static/js/main.fd6ea782.js",
+    "main.css": "/krishnaveni-tiffines/static/css/main.abab0791.css",
+    "main.js": "/krishnaveni-tiffines/static/js/main.b6e8a43a.js",
     "static/media/tea.jpg": "/krishnaveni-tiffines/static/media/tea.7a196255397003027823.jpg",
     "static/media/coffee.jpg": "/krishnaveni-tiffines/static/media/coffee.319a4a70e93a86824267.jpg",
     "static/media/milk.jpg": "/krishnaveni-tiffines/static/media/milk.35b94d3ac0ec5be67ecb.jpg",
@@ -16,11 +16,11 @@
     "static/media/vada.jpg": "/krishnaveni-tiffines/static/media/vada.a72b814ce2ba2fb2eb23.jpg",
     "static/media/dosa.jpg": "/krishnaveni-tiffines/static/media/dosa.0bb2600bfd552bbc353d.jpg",
     "index.html": "/krishnaveni-tiffines/index.html",
-    "main.9e0543e2.css.map": "/krishnaveni-tiffines/static/css/main.9e0543e2.css.map",
-    "main.fd6ea782.js.map": "/krishnaveni-tiffines/static/js/main.fd6ea782.js.map"
+    "main.abab0791.css.map": "/krishnaveni-tiffines/static/css/main.abab0791.css.map",
+    "main.b6e8a43a.js.map": "/krishnaveni-tiffines/static/js/main.b6e8a43a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e0543e2.css",
-    "static/js/main.fd6ea782.js"
+    "static/css/main.abab0791.css",
+    "static/js/main.b6e8a43a.js"
   ]
 }
