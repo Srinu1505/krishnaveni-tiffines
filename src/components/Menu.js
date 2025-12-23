@@ -25,8 +25,8 @@ const menuItems = [
   { id: 8, name: "Tea", price: 25, image: tea },
   { id: 9, name: "Coffee", price: 25, image: coffee },
   { id: 10, name: "Milk", price: 20, image: milk },
-  {id: 11, name: "Water Bottle", price:20, image: water},
-  {id:12, name : "Drinks", price:20, image: drinks}
+  { id: 11, name: "Water Bottle", price: 20, image: water },
+  { id: 12, name: "Drinks", price: 20, image: drinks }
 ];
 
 function Menu({ cartItems, setCartItems, search }) {
@@ -53,6 +53,10 @@ function Menu({ cartItems, setCartItems, search }) {
 
   return (
     <div className="menu-grid">
+      {filteredItems.length === 0 && (
+        <p style={{ textAlign: "center" }}>No Items Found</p>
+      )}
+
       {filteredItems.map(item => {
         const cartItem = cartItems.find(i => i.id === item.id);
         const qty = cartItem ? cartItem.qty : 0;
@@ -60,8 +64,16 @@ function Menu({ cartItems, setCartItems, search }) {
         return (
           <div className="menu-card" key={item.id}>
             <div className="image-box">
-              <img src={item.image} alt={item.name} className="food-img" />
-              <img src={logo} alt="Krishnaveni Tiffines" className="watermark" />
+              <img
+                src={item.image}
+                alt={item.name}
+                className="food-img"
+              />
+              <img
+                src={logo}
+                alt="Krishnaveni Tiffines"
+                className="watermark"
+              />
             </div>
 
             <h3>{item.name}</h3>
@@ -80,6 +92,7 @@ function Menu({ cartItems, setCartItems, search }) {
 }
 
 export default Menu;
+
 
 
 
