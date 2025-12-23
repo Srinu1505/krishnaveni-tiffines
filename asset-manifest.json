@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/krishnaveni-tiffins/static/css/main.9e0543e2.css",
+    "main.js": "/krishnaveni-tiffins/static/js/main.2d560390.js",
+    "static/media/tea.jpg": "/krishnaveni-tiffins/static/media/tea.7a196255397003027823.jpg",
+    "static/media/coffee.jpg": "/krishnaveni-tiffins/static/media/coffee.319a4a70e93a86824267.jpg",
+    "static/media/milk.jpg": "/krishnaveni-tiffins/static/media/milk.35b94d3ac0ec5be67ecb.jpg",
+    "static/media/logo.jpeg": "/krishnaveni-tiffins/static/media/logo.b1f8613dcbe5fb266525.jpeg",
+    "static/media/uggani.jpg": "/krishnaveni-tiffins/static/media/uggani.85901524b5b86de02038.jpg",
+    "static/media/water.jpg": "/krishnaveni-tiffins/static/media/water.c3244960cccd11b66bd4.jpg",
+    "static/media/puri.jpg": "/krishnaveni-tiffins/static/media/puri.f4a2dc518dd51262fdba.jpg",
+    "static/media/pesaradosa.jpg": "/krishnaveni-tiffins/static/media/pesaradosa.08039e32e29c540be9a6.jpg",
+    "static/media/bonda.jpg": "/krishnaveni-tiffins/static/media/bonda.c5132fb17d2911d50fa3.jpg",
+    "static/media/softdrinks.jpg": "/krishnaveni-tiffins/static/media/softdrinks.0fa4144c9678db4098c2.jpg",
+    "static/media/idliimg.jpg": "/krishnaveni-tiffins/static/media/idliimg.63db61ca89d89f758b33.jpg",
+    "static/media/vada.jpg": "/krishnaveni-tiffins/static/media/vada.a72b814ce2ba2fb2eb23.jpg",
+    "static/media/dosa.jpg": "/krishnaveni-tiffins/static/media/dosa.0bb2600bfd552bbc353d.jpg",
+    "index.html": "/krishnaveni-tiffins/index.html",
+    "main.9e0543e2.css.map": "/krishnaveni-tiffins/static/css/main.9e0543e2.css.map",
+    "main.2d560390.js.map": "/krishnaveni-tiffins/static/js/main.2d560390.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e0543e2.css",
+    "static/js/main.2d560390.js"
+  ]
+}
